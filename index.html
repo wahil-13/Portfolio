@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">A propos</a>
+            <a href="#services">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Bonjour, C'est moi</h3>
+            <h1>Laamoum Wahil </h1>
+            <h3>Et je suis<span> Etudiant</span></h3>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/people/Wahil-Laamoum/pfbid0HUA2VAYJHbxGeDbKsrhc94dj47F9uBYRVUXHiLJJxHTJ2rje2F7M9sM7hCkbhuhYl/"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.linkedin.com/in/wahil-laamoum-b93824263/"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://viadeo.journaldunet.com/p/wahil-laamoum-7984688?"><i class='bx bx-video' ></i></a>
+                    <a href="https://profile.indeed.com/?hl=fr_FR&co=FR&from=gnav-menu-homepage"><i class='bx bx-cylinder'></i></a>
+                </div>
+                <a href="https://cvdesignr.com/p/63db75e3c2375" class="btn">Télécharger mon CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/pp2.jpg" alt="">
+        </div>
+    </section>
+
+
+    <!-- About section design -->
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/pp.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">A propos de <span>moi</span></h2></br>
+        </br>
+             
+        <h5>Découvrez mon parcours et mes compétences en tant qu'étudiant et développeur.</h5><br>
+
+            <div id="titre">
+                <h1>Etudiant & Développeur</h1><br>
+            </div>
+        <p>Je suis passionné par la création de site web.</p>
+        
+
+        <div class="list">
+
+            <ul class="l1">
+                <li><span class="liste">Date de naissance : </span> 29 Mars 2004</li><br>
+                <li><span class="liste">Ville :</span> Marseille, France </li><br>
+                <li><span class="liste">Niveau d'études :</span> BTS SIO (Bac +2)</li><br>
+            </ul>
+            <ul class="l2">
+                <li><span class="liste">Age :</span> 19 ans</li><br>
+                <li><span class="liste">Téléphone :</span> 07 68 84 14 88</li><br>
+                <li><span class="liste">Email :</span> wahil.la13@gmail.com</li><br>
+            </ul>
+
+        </div>
+
+        <p>Cela fait quelques années que je m'intéresse à l'informatique et j'ai décidé de faire de ma passion mon métier.</p>
+        <br>
+        
+            <a href="#" class="btn-about">Voir plus CV</a>
+        </div>
+   </section>
+
+
+   <!-- Projets section design -->
+   <section class="services" id="services">
+        <h2 class="heading">Mes <span>Projets</span></h2>
+
+        <h1>Sites Web</h1>
+            <p>Ici, je vous présente différents sites internet que j'ai réalisé que ce soit pour un devoir ou pour mon loisir personnel.</p>
+            
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-tv' ></i>
+                <h3>Télétravail</h3>
+                <p>Un site de présentation sur le Télétravaille <span>(devoirs)</span>.</p>
+                <a href="#services" class="btn">Voir le site</a><br>
+                <h6>Ce site est en cours de maintenance !!</h6>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-receipt' ></i>
+                <h3>Recette de cuisine</h3>
+                <p>une simple page internet avec une recettes de cuisine <span>(devoirs)</span></p>
+                <a href="#services" class="btn">Voir le site</a><br>
+                <h6>Ce site est en cours de maintenance !!</h6>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-music' ></i>
+                <h3>Musique</h3>
+                <p>Un site ou je présente les différentes prods que j'ai pue créer <span>(personnel)</span>.</p>
+                <a href="#services" class="btn">Voir le site</a><br>
+                <h6>Ce site est en cours de maintenance !!</h6>
+            </div>
+
+        </div>
+   </section>
+
+
+
+  
+   <!-- Contact section design -->
+   <section class="contact" id="contact" >
+    <h2 class="heading">Contactez <span>moi !</span></h2>
+
+        <form action="#" method= POST>
+            <div class="input-box">
+                <input type="text" name = "nom" placeholder="Nom complet">
+                <input type="email" name = "email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" name = "numero" placeholder="N° de téléphone">
+                <input type="text" name = "sujet" placeholder="Sujets du mail">
+            </div>
+        
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Envoyer le message" class="btn">
+
+        </form>
+   </section>
+
+
+   
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <script src="js/script.js"></script>
+
+ 
+
+</body>
+
+</html>
+
+
+
+
+<!--
+
+<h3>Formation</h3>
+            <p> BTS SIO </br>
+                LYCEE MARIE-CURIE</br>
+                2022 à 2023</br>
+                Service informatique aux organisations,</br>
+                options slam (solutions logiciels et application métier)</br>
+                Informatique</br>
+                CEJM</br>
+                CULTURE Générale</p></br>
+
+
+
+            <h3>Centres d'intérêt</h3>  
+            
+                <h4><span>Informarique</span></h4>
+                <p>Création de site web</br>
+                Bricoler les pc</br></p>
+
+                <h4><span>Musique</span></h4>
+                <p>Ecouter</br>
+                Créer</p>
+
+                <h4><span>Sport</span></h4>
+                <p>VTT</br>
+                Natation</p>
+
+                <h4><span>Bricolage</span></h4>
+                <p>Bricoler
+                Activité manuelle
+
+            </p> 
+
+
+
+
+
+
+
+                    <table class="t1">
+            <tr>
+                <td>> Date de naissance :</td>
+                <td> 29 Mars 2004</td>
+            </tr>
+            <tr>
+                <td>> Ville :</td>
+                <td> Marseille</td>
+            </tr>
+            <tr>
+                <td>> Niveau d'études :</td>
+                <td> BTS SIO (Bac +2)</td>
+            </tr>
+            
+        </table>
+
+        <table class="t2">
+            <tr>
+                <td>> Age :</td>
+                <td> 19</td>
+            </tr>
+            <tr>
+                <td>> Téléphone :</td>
+                <td> 07 68 84 14 88 </td>
+            </tr>
+            <tr>
+                <td>> Email :</td>
+                <td> wahil.la13@gmail.com</td>
+            </tr>
+        </table>
+            -->
